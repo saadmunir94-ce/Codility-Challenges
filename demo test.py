@@ -14,3 +14,6 @@ def solution(A):
         if A[i+1] - A[i] > 1:
             return A[i] + 1
     return A[-1] + 1
+
+B = [1, 2, 3, 5]
+print(solution(B))
