@@ -16,4 +16,7 @@ def solution(A):
     return A[-1] + 1
 
 B = [1, 2, 3, 5]
-print(solution(B))
+input_list = input("Please enter numbers separated by a comma and space")
+input_list = input_list.split(", ")
+input_list = list(map(int, input_list))
+print(solution(input_list))
